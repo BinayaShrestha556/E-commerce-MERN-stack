@@ -9,7 +9,7 @@ export default function Login() {
   const [uNameError, setUNameError] = useState("");
   const [password, setPassword] = useState("");
   const [pWordError, setpWordError] = useState("");
-const { isLoggedIn,setIsLoggedIn,userId,setUserId}=useContext(CategoryContext)
+const { setIsLoggedIn,setUserId}=useContext(CategoryContext)
 //   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const handleLogin = async () => {
     const res = await axios.post("https://e-commerce-mern-stack-zeta.vercel.app/user/login",{userName,password});

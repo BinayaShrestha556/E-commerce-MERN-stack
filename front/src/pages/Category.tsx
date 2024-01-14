@@ -22,7 +22,7 @@ export default function Category({Category}:{Category:string}) {
     const [page,setPage]=useState(0)
     const [data,setData]= useState<dataType[]>([])
     const [loading,setLoading]=useState(false)
-    const{category, setCategory}=useContext(CategoryContext)
+    const{ setCategory}=useContext(CategoryContext)
     useEffect(()=>{
       setCategory(Category)
         const load=async()=>{ 
