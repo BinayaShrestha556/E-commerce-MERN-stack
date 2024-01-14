@@ -41,7 +41,7 @@ export default function Home() {
                 <span className="relative z-10 text-xl font-bold">
                   Shop Now
                 </span>
-              </button>{isLoggedIn?
+              </button>{!isLoggedIn?
               <button onClick={()=>navigate('/user/login')} className="underline text-2xl font-bold text-[#07484A] transition-all ease-out duration-150 hover:text-[#a17840]">
                 Sign In
               </button>:""}
