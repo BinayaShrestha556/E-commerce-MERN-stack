@@ -56,7 +56,7 @@ export default function Product() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`http://localhost:3000/data/id/${id}`)
+      .get(`https://e-commerce-mern-stack-zeta.vercel.app/data/id/${id}`)
       .then((res) => {
         setData(res.data);
         const str = truncateString(res.data.title, 40);

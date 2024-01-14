@@ -27,7 +27,7 @@ export default function Category({Category}:{Category:string}) {
       setCategory(Category)
         const load=async()=>{ 
         setLoading(true)
-        const res= await axios.get(`http://localhost:3000/data/category/${Category}/${page}`)
+        const res= await axios.get(`https://e-commerce-mern-stack-zeta.vercel.app/data/category/${Category}/${page}`)
         setData(res.data.data)
         setLoading(false)
 

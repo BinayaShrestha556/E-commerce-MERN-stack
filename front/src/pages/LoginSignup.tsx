@@ -22,7 +22,7 @@ export default function LoginSignup() {
     password
   }
   const clickHandle=()=>{
-    axios.post('http://localhost:3000/user/createUser',body).then((res)=>{
+    axios.post('https://e-commerce-mern-stack-zeta.vercel.app/user/createUser',body).then((res)=>{
      
       res.data.message==="username already exixts"?setUserNameError(res.data.message):setUserNameError("")
       

@@ -12,7 +12,7 @@ export default function Login() {
 const { isLoggedIn,setIsLoggedIn,userId,setUserId}=useContext(CategoryContext)
 //   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const handleLogin = async () => {
-    const res = await axios.post("http://localhost:3000/user/login",{userName,password});
+    const res = await axios.post("https://e-commerce-mern-stack-zeta.vercel.app/user/login",{userName,password});
     console.log(res);
     if (res.data.message === "user not exist") {setUNameError(res.data.message)}else{setUNameError("")};
     if (res.data.message === "password incorrect")

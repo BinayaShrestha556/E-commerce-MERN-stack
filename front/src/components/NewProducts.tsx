@@ -21,7 +21,7 @@ export default function NewProducts() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get("http://localhost:3000/data/new-collection")
+      .get("https://e-commerce-mern-stack-zeta.vercel.app/data/new-collection")
       .then((response) =>{setData(response.data.data);console.log(data); setLoading(false);})
   }, []);
 

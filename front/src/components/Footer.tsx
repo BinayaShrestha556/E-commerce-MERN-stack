@@ -19,7 +19,7 @@ export default function Footer() {
       description:comment
     }
     try{
-       const res= await axios.post("http://localhost:3000/contact", contactInfo)
+       const res= await axios.post("https://e-commerce-mern-stack-zeta.vercel.app/contact", contactInfo)
        if(res.data=="success") {
         setSuccess(true)
         setEmail("")
