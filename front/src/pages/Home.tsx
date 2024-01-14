@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div>
       <div
-        className={`md:bg-[#C4C4C4] lg:bg-none bg-blend-lighten bg-cover bg-[#C4C4C4]/[0.9] bg-center bg-[url(./pretty-brunette-girl-stylish-hat-posing-yellow-wall.jpg)] w-full h-[100vh] `}
+        className={`md:bg-[#C4C4C4] lg:bg-none bg-blend-lighten bg-cover bg-[#C4C4C4]/[0.9] bg-center bg-[url(/pretty-brunette-girl-stylish-hat-posing-yellow-wall.jpg)] w-full h-[100vh] `}
       >
         <div className="xl:w-[80%] w-full p-4 h-full m-auto flex items-center">
           <div className="lg:w-1/2 w-full flex flex-col gap-6">
