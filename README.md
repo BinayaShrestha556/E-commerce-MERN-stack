@@ -2,3 +2,5 @@
 
 
 this website implements MERN stack with typescript.
+if you want to contribute to this site to make it better feel free to do so
+
