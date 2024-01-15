@@ -57,7 +57,7 @@ export default function Footer() {
                 className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
-                <a href="https://instagram.com" target="blank">
+                <a href="https://www.instagram.com/binay._.shrestha/" target="blank">
                   {" "}
                   <img className="p-1 object-cover" src={insta_b} alt="" />
                 </a>
@@ -65,14 +65,15 @@ export default function Footer() {
               <button
                 className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
-              >
-                <img className="p-1 object-cover" src={github_b} alt="" />
+              > <a href="https://github.com/BinayaShrestha556" target="blank">
+                <img className="p-1 object-cover" src={github_b} alt="" /></a>
               </button>
               <button
                 className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
-                <img className="p-1 object-cover" src={up_b} alt="" />
+                <a href="https://www.upwork.com/workwith/binayas5">
+                <img className="p-1 object-cover" src={up_b} alt="" /></a>
               </button>
             </div>{" "}
           </div>
