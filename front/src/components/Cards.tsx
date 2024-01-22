@@ -33,7 +33,7 @@ export default function Items({
 
   return (
     <Link to={`/product/${_id}`}>
-      <div className="flex cursor-pointer gap-2 flex-col w-[90%] m-auto bg-slate-50 mt-10 shadow-xl">
+      <div className="flex cursor-pointer gap-2 flex-col w-[90%] m-auto hover:scale-105 transition-all ease-in-out duration-150 bg-slate-50 mt-10 shadow-xl">
         <div className="h-52 md:h-64 w-full overflow-hidden">
           <img className="object-cover" src={img[0]} alt="" />
         </div>
